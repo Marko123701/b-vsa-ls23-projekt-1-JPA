@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="sk.stuba.fei.uim.vsa.pr1.ThesisTest" time="3.005" tests="14" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/tested--b-vsa-ls23-projekt-1/target/test-classes:/tested--b-vsa-ls23-projekt-1/target/classes:/root/.m2/repository/org/postgresql/postgresql/42.5.4/postgresql-42.5.4.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/root/.m2/repository/org/eclipse/persistence/eclipselink/2.7.11/eclipselink-2.7.11.jar:/root/.m2/repository/org/eclipse/persistence/jakarta.persistence/2.2.3/jakarta.persistence-2.2.3.jar:/root/.m2/repository/org/eclipse/persistence/commonj.sdo/2.1.1/commonj.sdo-2.1.1.jar:/root/.m2/repository/org/eclipse/persistence/javax.persistence/2.2.1/javax.persistence-2.2.1.jar:/root/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/root/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/root/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.3.5/logback-core-1.3.5.jar:/root/.m2/repository/org/slf4j/slf4j-api/2.0.4/slf4j-api-2.0.4.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.3.5/logback-classic-1.3.5.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-8/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/tested--b-vsa-ls23-projekt-1/target/surefire/surefirebooter6720785716765054484.jar /tested--b-vsa-ls23-projekt-1/target/surefire 2023-04-18T16-55-32_175-jvmRun1 surefire6711077570847490792tmp surefire_03959252908262028323tmp"/>
+    <property name="surefire.test.class.path" value="/tested--b-vsa-ls23-projekt-1/target/test-classes:/tested--b-vsa-ls23-projekt-1/target/classes:/root/.m2/repository/org/postgresql/postgresql/42.5.4/postgresql-42.5.4.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/root/.m2/repository/org/eclipse/persistence/eclipselink/2.7.11/eclipselink-2.7.11.jar:/root/.m2/repository/org/eclipse/persistence/jakarta.persistence/2.2.3/jakarta.persistence-2.2.3.jar:/root/.m2/repository/org/eclipse/persistence/commonj.sdo/2.1.1/commonj.sdo-2.1.1.jar:/root/.m2/repository/org/eclipse/persistence/javax.persistence/2.2.1/javax.persistence-2.2.1.jar:/root/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/root/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/root/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.3.5/logback-core-1.3.5.jar:/root/.m2/repository/org/slf4j/slf4j-api/2.0.4/slf4j-api-2.0.4.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.3.5/logback-classic-1.3.5.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/local/openjdk-8/jre"/>
+    <property name="basedir" value="/tested--b-vsa-ls23-projekt-1"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/tested--b-vsa-ls23-projekt-1/target/surefire/surefirebooter6720785716765054484.jar"/>
+    <property name="sun.boot.class.path" value="/usr/local/openjdk-8/jre/lib/resources.jar:/usr/local/openjdk-8/jre/lib/rt.jar:/usr/local/openjdk-8/jre/lib/sunrsasign.jar:/usr/local/openjdk-8/jre/lib/jsse.jar:/usr/local/openjdk-8/jre/lib/jce.jar:/usr/local/openjdk-8/jre/lib/charsets.jar:/usr/local/openjdk-8/jre/lib/jfr.jar:/usr/local/openjdk-8/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_342-b07"/>
+    <property name="user.name" value="root"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.90.1-microsoft-standard-WSL2"/>
+    <property name="java.endorsed.dirs" value="/usr/local/openjdk-8/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_342"/>
+    <property name="user.dir" value="/tested--b-vsa-ls23-projekt-1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.342-b07"/>
+    <property name="java.ext.dirs" value="/usr/local/openjdk-8/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="TH09_shouldUpdateThesis" classname="sk.stuba.fei.uim.vsa.pr1.ThesisTest" time="0.213"/>
+  <testcase name="TH03_shouldSubmitThesis" classname="sk.stuba.fei.uim.vsa.pr1.ThesisTest" time="0.217"/>
+  <testcase name="TH01_1_shouldNOTCreateThesisWithoutTeacher" classname="sk.stuba.fei.uim.vsa.pr1.ThesisTest" time="0.145"/>
+  <testcase name="TH02_shouldAssignThesisToStudent" classname="sk.stuba.fei.uim.vsa.pr1.ThesisTest" time="0.332"/>
+  <testcase name="TH11_shouldDeleteThesisButNotStudent" classname="sk.stuba.fei.uim.vsa.pr1.ThesisTest" time="0.185"/>
+  <testcase name="TH02_1_shouldAssignThesisToStudentWithAlreadyAssignedThesis" classname="sk.stuba.fei.uim.vsa.pr1.ThesisTest" time="0.23">
+    <failure message="expected: not &lt;null&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: not <null>
+	at sk.stuba.fei.uim.vsa.pr1.ThesisTest.TH02_1_shouldAssignThesisToStudentWithAlreadyAssignedThesis(ThesisTest.java:210)
+]]></failure>
+    <system-out><![CDATA[[EL Fine]: moxy: 2023-04-18 16:55:40.834--Thread(Thread[main,5,main])--SAXParserFactory instance: com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl@5af5def9
+[EL Fine]: sql: 2023-04-18 16:55:40.836--ServerSession(688593710)--Connection(1556520190)--Thread(Thread[main,5,main])--SELECT ID, AISID, DEPARTMENT, EMAIL, INSTITUTE, NAME FROM EDUCATOR WHERE (EMAIL = ?)
+	bind => [test.teacher@stuba.sk]
+[EL Fine]: sql: 2023-04-18 16:55:40.838--ServerSession(688593710)--Connection(1556520190)--Thread(Thread[main,5,main])--SELECT ID, AISID, DEPARTMENT, EMAIL, INSTITUTE, NAME FROM EDUCATOR WHERE (AISID = ?)
+	bind => [80123]
+[EL Fine]: sql: 2023-04-18 16:55:40.839--ClientSession(1202081661)--Connection(1556520190)--Thread(Thread[main,5,main])--INSERT INTO EDUCATOR (AISID, DEPARTMENT, EMAIL, INSTITUTE, NAME) VALUES (?, ?, ?, ?, ?)
+	bind => [80123, Software engineering, test.teacher@stuba.sk, Software engineering, Test-Teacher]
+[EL Fine]: sql: 2023-04-18 16:55:40.841--ClientSession(1202081661)--Connection(1556520190)--Thread(Thread[main,5,main])--select lastval()
+[EL Fine]: moxy: 2023-04-18 16:55:40.847--Thread(Thread[main,5,main])--SAXParserFactory instance: com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl@27a0a5a2
+[EL Fine]: moxy: 2023-04-18 16:55:40.853--Thread(Thread[main,5,main])--SAXParserFactory instance: com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl@33aa93c
+[EL Fine]: sql: 2023-04-18 16:55:40.858--ClientSession(279781579)--Connection(1556520190)--Thread(Thread[main,5,main])--INSERT INTO FINALTHESIS (DESCRIPTION, PUBLICATIONDATE, REGISTRATIONNUMBER, STATUS, SUBMISSIONDEADLINE, TITLE, TYPE, WORKPLACE, EDUCATOR_ID, STUDENT_ID) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [Some description of the thesis, 2023-04-18, FEI-6f3b5041-180e-4b88-b773-56533459697d, FREE, 2023-07-18, Excellent Simple Bachelor Thesis, BACHELOR, Software engineering, Software engineering, 13, null]
+[EL Fine]: sql: 2023-04-18 16:55:40.862--ClientSession(279781579)--Connection(1556520190)--Thread(Thread[main,5,main])--select lastval()
+[EL Fine]: moxy: 2023-04-18 16:55:40.87--Thread(Thread[main,5,main])--SAXParserFactory instance: com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl@3e792ce3
+[EL Fine]: sql: 2023-04-18 16:55:40.872--ServerSession(688593710)--Connection(1556520190)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM STUDENT WHERE (EMAIL = ?)
+	bind => [xtest@stuba.sk]
+[EL Fine]: sql: 2023-04-18 16:55:40.873--ServerSession(688593710)--Connection(1556520190)--Thread(Thread[main,5,main])--SELECT COUNT(ID) FROM STUDENT WHERE (AISID = ?)
+	bind => [70127]
+[EL Fine]: sql: 2023-04-18 16:55:40.875--ClientSession(1008612116)--Connection(1556520190)--Thread(Thread[main,5,main])--INSERT INTO STUDENT (AISID, EMAIL, NAME, SEMESTEROFSTUDY, STUDYPROGRAM, YEAROFSTUDY) VALUES (?, ?, ?, ?, ?, ?)
+	bind => [70127, xtest@stuba.sk, Test-Student, 1, default, 1]
+[EL Fine]: sql: 2023-04-18 16:55:40.877--ClientSession(1008612116)--Connection(1556520190)--Thread(Thread[main,5,main])--select lastval()
+[EL Fine]: moxy: 2023-04-18 16:55:40.885--Thread(Thread[main,5,main])--SAXParserFactory instance: com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl@78e16155
+[EL Fine]: moxy: 2023-04-18 16:55:40.891--Thread(Thread[main,5,main])--SAXParserFactory instance: com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl@50b0bc4c
+[EL Fine]: moxy: 2023-04-18 16:55:40.897--Thread(Thread[main,5,main])--SAXParserFactory instance: com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl@6b739528
+[EL Fine]: sql: 2023-04-18 16:55:40.906--ClientSession(295055909)--Connection(1556520190)--Thread(Thread[main,5,main])--UPDATE FINALTHESIS SET STATUS = ?, STUDENT_ID = ? WHERE (ID = ?)
+	bind => [INPROGRESS, 11, 5]
+[EL Fine]: moxy: 2023-04-18 16:55:40.916--Thread(Thread[main,5,main])--SAXParserFactory instance: com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl@11ee02f8
+[EL Fine]: moxy: 2023-04-18 16:55:40.924--Thread(Thread[main,5,main])--SAXParserFactory instance: com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl@7e8e8651
+[EL Fine]: moxy: 2023-04-18 16:55:40.935--Thread(Thread[main,5,main])--SAXParserFactory instance: com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl@eadb475
+[EL Fine]: moxy: 2023-04-18 16:55:40.939--Thread(Thread[main,5,main])--SAXParserFactory instance: com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl@315df4bb
+[EL Fine]: sql: 2023-04-18 16:55:40.942--ClientSession(623131585)--Connection(1556520190)--Thread(Thread[main,5,main])--INSERT INTO FINALTHESIS (DESCRIPTION, PUBLICATIONDATE, REGISTRATIONNUMBER, STATUS, SUBMISSIONDEADLINE, TITLE, TYPE, WORKPLACE, EDUCATOR_ID, STUDENT_ID) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [Some description of the thesis but other then the first one, 2023-04-18, FEI-e44b2f6d-50c3-4cb4-9323-5b0e304db4e0, FREE, 2023-07-18, Extra Hard Master Thesis, MASTER, Software engineering, Software engineering, 13, null]
+[EL Fine]: sql: 2023-04-18 16:55:40.944--ClientSession(623131585)--Connection(1556520190)--Thread(Thread[main,5,main])--select lastval()
+[EL Fine]: moxy: 2023-04-18 16:55:40.951--Thread(Thread[main,5,main])--SAXParserFactory instance: com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl@4201a617
+[EL Fine]: moxy: 2023-04-18 16:55:40.954--Thread(Thread[main,5,main])--SAXParserFactory instance: com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl@308a6984
+]]></system-out>
+  </testcase>
+  <testcase name="TH05_shouldGetAllTheses" classname="sk.stuba.fei.uim.vsa.pr1.ThesisTest" time="0.178"/>
+  <testcase name="TH10_shouldDeleteTeacherWithThesis" classname="sk.stuba.fei.uim.vsa.pr1.ThesisTest" time="0.201"/>
+  <testcase name="TH08_shouldGetAThesis" classname="sk.stuba.fei.uim.vsa.pr1.ThesisTest" time="0.173"/>
+  <testcase name="TH04_shouldDeleteThesisButNotTeacher" classname="sk.stuba.fei.uim.vsa.pr1.ThesisTest" time="0.255"/>
+  <testcase name="TH07_shouldGetThesisByStudent" classname="sk.stuba.fei.uim.vsa.pr1.ThesisTest" time="0.18"/>
+  <testcase name="TH02_2_shouldNOTAssignAlreadyAssignedThesis" classname="sk.stuba.fei.uim.vsa.pr1.ThesisTest" time="0.211"/>
+  <testcase name="TH06_shouldGetAllThesesByTeacher" classname="sk.stuba.fei.uim.vsa.pr1.ThesisTest" time="0.233"/>
+  <testcase name="TH01_shouldCreateThesisAssignment" classname="sk.stuba.fei.uim.vsa.pr1.ThesisTest" time="0.176"/>
+</testsuite>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="sk.stuba.fei.uim.vsa.pr1.TeacherTest" time="1.369" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/tested--b-vsa-ls23-projekt-1/target/test-classes:/tested--b-vsa-ls23-projekt-1/target/classes:/root/.m2/repository/org/postgresql/postgresql/42.5.4/postgresql-42.5.4.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/root/.m2/repository/org/eclipse/persistence/eclipselink/2.7.11/eclipselink-2.7.11.jar:/root/.m2/repository/org/eclipse/persistence/jakarta.persistence/2.2.3/jakarta.persistence-2.2.3.jar:/root/.m2/repository/org/eclipse/persistence/commonj.sdo/2.1.1/commonj.sdo-2.1.1.jar:/root/.m2/repository/org/eclipse/persistence/javax.persistence/2.2.1/javax.persistence-2.2.1.jar:/root/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/root/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/root/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.3.5/logback-core-1.3.5.jar:/root/.m2/repository/org/slf4j/slf4j-api/2.0.4/slf4j-api-2.0.4.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.3.5/logback-classic-1.3.5.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-8/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/tested--b-vsa-ls23-projekt-1/target/surefire/surefirebooter6720785716765054484.jar /tested--b-vsa-ls23-projekt-1/target/surefire 2023-04-18T16-55-32_175-jvmRun1 surefire6711077570847490792tmp surefire_03959252908262028323tmp"/>
+    <property name="surefire.test.class.path" value="/tested--b-vsa-ls23-projekt-1/target/test-classes:/tested--b-vsa-ls23-projekt-1/target/classes:/root/.m2/repository/org/postgresql/postgresql/42.5.4/postgresql-42.5.4.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/root/.m2/repository/org/eclipse/persistence/eclipselink/2.7.11/eclipselink-2.7.11.jar:/root/.m2/repository/org/eclipse/persistence/jakarta.persistence/2.2.3/jakarta.persistence-2.2.3.jar:/root/.m2/repository/org/eclipse/persistence/commonj.sdo/2.1.1/commonj.sdo-2.1.1.jar:/root/.m2/repository/org/eclipse/persistence/javax.persistence/2.2.1/javax.persistence-2.2.1.jar:/root/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/root/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/root/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.3.5/logback-core-1.3.5.jar:/root/.m2/repository/org/slf4j/slf4j-api/2.0.4/slf4j-api-2.0.4.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.3.5/logback-classic-1.3.5.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/local/openjdk-8/jre"/>
+    <property name="basedir" value="/tested--b-vsa-ls23-projekt-1"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/tested--b-vsa-ls23-projekt-1/target/surefire/surefirebooter6720785716765054484.jar"/>
+    <property name="sun.boot.class.path" value="/usr/local/openjdk-8/jre/lib/resources.jar:/usr/local/openjdk-8/jre/lib/rt.jar:/usr/local/openjdk-8/jre/lib/sunrsasign.jar:/usr/local/openjdk-8/jre/lib/jsse.jar:/usr/local/openjdk-8/jre/lib/jce.jar:/usr/local/openjdk-8/jre/lib/charsets.jar:/usr/local/openjdk-8/jre/lib/jfr.jar:/usr/local/openjdk-8/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_342-b07"/>
+    <property name="user.name" value="root"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.90.1-microsoft-standard-WSL2"/>
+    <property name="java.endorsed.dirs" value="/usr/local/openjdk-8/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_342"/>
+    <property name="user.dir" value="/tested--b-vsa-ls23-projekt-1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.342-b07"/>
+    <property name="java.ext.dirs" value="/usr/local/openjdk-8/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="TE05_shouldDeleteTeacher" classname="sk.stuba.fei.uim.vsa.pr1.TeacherTest" time="0.187"/>
+  <testcase name="TE03_shouldGetAllTeachers" classname="sk.stuba.fei.uim.vsa.pr1.TeacherTest" time="0.268"/>
+  <testcase name="TE02_shouldGetTeacher" classname="sk.stuba.fei.uim.vsa.pr1.TeacherTest" time="0.265"/>
+  <testcase name="TE06_emailShouldBeUnique" classname="sk.stuba.fei.uim.vsa.pr1.TeacherTest" time="0.151"/>
+  <testcase name="TE01_shouldCreateTeacher" classname="sk.stuba.fei.uim.vsa.pr1.TeacherTest" time="0.206"/>
+  <testcase name="TE04_shouldUpdateTeacher" classname="sk.stuba.fei.uim.vsa.pr1.TeacherTest" time="0.218"/>
+</testsuite>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="sk.stuba.fei.uim.vsa.pr1.SanityCheckTest" time="2.245" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/tested--b-vsa-ls23-projekt-1/target/test-classes:/tested--b-vsa-ls23-projekt-1/target/classes:/root/.m2/repository/org/postgresql/postgresql/42.5.4/postgresql-42.5.4.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/root/.m2/repository/org/eclipse/persistence/eclipselink/2.7.11/eclipselink-2.7.11.jar:/root/.m2/repository/org/eclipse/persistence/jakarta.persistence/2.2.3/jakarta.persistence-2.2.3.jar:/root/.m2/repository/org/eclipse/persistence/commonj.sdo/2.1.1/commonj.sdo-2.1.1.jar:/root/.m2/repository/org/eclipse/persistence/javax.persistence/2.2.1/javax.persistence-2.2.1.jar:/root/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/root/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/root/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.3.5/logback-core-1.3.5.jar:/root/.m2/repository/org/slf4j/slf4j-api/2.0.4/slf4j-api-2.0.4.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.3.5/logback-classic-1.3.5.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-8/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/tested--b-vsa-ls23-projekt-1/target/surefire/surefirebooter6720785716765054484.jar /tested--b-vsa-ls23-projekt-1/target/surefire 2023-04-18T16-55-32_175-jvmRun1 surefire6711077570847490792tmp surefire_03959252908262028323tmp"/>
+    <property name="surefire.test.class.path" value="/tested--b-vsa-ls23-projekt-1/target/test-classes:/tested--b-vsa-ls23-projekt-1/target/classes:/root/.m2/repository/org/postgresql/postgresql/42.5.4/postgresql-42.5.4.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/root/.m2/repository/org/eclipse/persistence/eclipselink/2.7.11/eclipselink-2.7.11.jar:/root/.m2/repository/org/eclipse/persistence/jakarta.persistence/2.2.3/jakarta.persistence-2.2.3.jar:/root/.m2/repository/org/eclipse/persistence/commonj.sdo/2.1.1/commonj.sdo-2.1.1.jar:/root/.m2/repository/org/eclipse/persistence/javax.persistence/2.2.1/javax.persistence-2.2.1.jar:/root/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/root/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/root/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.3.5/logback-core-1.3.5.jar:/root/.m2/repository/org/slf4j/slf4j-api/2.0.4/slf4j-api-2.0.4.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.3.5/logback-classic-1.3.5.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/local/openjdk-8/jre"/>
+    <property name="basedir" value="/tested--b-vsa-ls23-projekt-1"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/tested--b-vsa-ls23-projekt-1/target/surefire/surefirebooter6720785716765054484.jar"/>
+    <property name="sun.boot.class.path" value="/usr/local/openjdk-8/jre/lib/resources.jar:/usr/local/openjdk-8/jre/lib/rt.jar:/usr/local/openjdk-8/jre/lib/sunrsasign.jar:/usr/local/openjdk-8/jre/lib/jsse.jar:/usr/local/openjdk-8/jre/lib/jce.jar:/usr/local/openjdk-8/jre/lib/charsets.jar:/usr/local/openjdk-8/jre/lib/jfr.jar:/usr/local/openjdk-8/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_342-b07"/>
+    <property name="user.name" value="root"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.90.1-microsoft-standard-WSL2"/>
+    <property name="java.endorsed.dirs" value="/usr/local/openjdk-8/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_342"/>
+    <property name="user.dir" value="/tested--b-vsa-ls23-projekt-1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.342-b07"/>
+    <property name="java.ext.dirs" value="/usr/local/openjdk-8/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testValidityOfPOMFile" classname="sk.stuba.fei.uim.vsa.pr1.SanityCheckTest" time="0.038"/>
+  <testcase name="testForProjectSetup" classname="sk.stuba.fei.uim.vsa.pr1.SanityCheckTest" time="0.001"/>
+  <testcase name="testPersistentUnitName" classname="sk.stuba.fei.uim.vsa.pr1.SanityCheckTest" time="0.003"/>
+</testsuite>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="sk.stuba.fei.uim.vsa.pr1.StudentTest" time="1.536" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/tested--b-vsa-ls23-projekt-1/target/test-classes:/tested--b-vsa-ls23-projekt-1/target/classes:/root/.m2/repository/org/postgresql/postgresql/42.5.4/postgresql-42.5.4.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/root/.m2/repository/org/eclipse/persistence/eclipselink/2.7.11/eclipselink-2.7.11.jar:/root/.m2/repository/org/eclipse/persistence/jakarta.persistence/2.2.3/jakarta.persistence-2.2.3.jar:/root/.m2/repository/org/eclipse/persistence/commonj.sdo/2.1.1/commonj.sdo-2.1.1.jar:/root/.m2/repository/org/eclipse/persistence/javax.persistence/2.2.1/javax.persistence-2.2.1.jar:/root/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/root/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/root/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.3.5/logback-core-1.3.5.jar:/root/.m2/repository/org/slf4j/slf4j-api/2.0.4/slf4j-api-2.0.4.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.3.5/logback-classic-1.3.5.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-8/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/tested--b-vsa-ls23-projekt-1/target/surefire/surefirebooter6720785716765054484.jar /tested--b-vsa-ls23-projekt-1/target/surefire 2023-04-18T16-55-32_175-jvmRun1 surefire6711077570847490792tmp surefire_03959252908262028323tmp"/>
+    <property name="surefire.test.class.path" value="/tested--b-vsa-ls23-projekt-1/target/test-classes:/tested--b-vsa-ls23-projekt-1/target/classes:/root/.m2/repository/org/postgresql/postgresql/42.5.4/postgresql-42.5.4.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/root/.m2/repository/org/eclipse/persistence/eclipselink/2.7.11/eclipselink-2.7.11.jar:/root/.m2/repository/org/eclipse/persistence/jakarta.persistence/2.2.3/jakarta.persistence-2.2.3.jar:/root/.m2/repository/org/eclipse/persistence/commonj.sdo/2.1.1/commonj.sdo-2.1.1.jar:/root/.m2/repository/org/eclipse/persistence/javax.persistence/2.2.1/javax.persistence-2.2.1.jar:/root/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/root/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/root/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/root/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/root/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/root/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/root/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/root/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.3.5/logback-core-1.3.5.jar:/root/.m2/repository/org/slf4j/slf4j-api/2.0.4/slf4j-api-2.0.4.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.3.5/logback-classic-1.3.5.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/local/openjdk-8/jre"/>
+    <property name="basedir" value="/tested--b-vsa-ls23-projekt-1"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/tested--b-vsa-ls23-projekt-1/target/surefire/surefirebooter6720785716765054484.jar"/>
+    <property name="sun.boot.class.path" value="/usr/local/openjdk-8/jre/lib/resources.jar:/usr/local/openjdk-8/jre/lib/rt.jar:/usr/local/openjdk-8/jre/lib/sunrsasign.jar:/usr/local/openjdk-8/jre/lib/jsse.jar:/usr/local/openjdk-8/jre/lib/jce.jar:/usr/local/openjdk-8/jre/lib/charsets.jar:/usr/local/openjdk-8/jre/lib/jfr.jar:/usr/local/openjdk-8/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_342-b07"/>
+    <property name="user.name" value="root"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.90.1-microsoft-standard-WSL2"/>
+    <property name="java.endorsed.dirs" value="/usr/local/openjdk-8/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_342"/>
+    <property name="user.dir" value="/tested--b-vsa-ls23-projekt-1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.342-b07"/>
+    <property name="java.ext.dirs" value="/usr/local/openjdk-8/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="ST04_shouldUpdateStudent" classname="sk.stuba.fei.uim.vsa.pr1.StudentTest" time="0.294"/>
+  <testcase name="ST05_shouldDeleteStudent" classname="sk.stuba.fei.uim.vsa.pr1.StudentTest" time="0.226"/>
+  <testcase name="ST03_shouldGetAllStudents" classname="sk.stuba.fei.uim.vsa.pr1.StudentTest" time="0.135"/>
+  <testcase name="ST01_shouldCreateStudent" classname="sk.stuba.fei.uim.vsa.pr1.StudentTest" time="0.131"/>
+  <testcase name="ST02_shouldGetStudent" classname="sk.stuba.fei.uim.vsa.pr1.StudentTest" time="0.214"/>
+  <testcase name="ST06_emailShouldBeUnique" classname="sk.stuba.fei.uim.vsa.pr1.StudentTest" time="0.145"/>
+</testsuite></testsuites>

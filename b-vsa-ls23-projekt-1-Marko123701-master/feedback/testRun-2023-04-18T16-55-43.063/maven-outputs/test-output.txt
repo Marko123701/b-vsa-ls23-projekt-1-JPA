@@ -1,0 +1,247 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< sk.stuba.fei.uim.vsa:b-vsa-ls23-project1 >--------------
+[INFO] Building b-vsa-ls23-project1 1.0.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ b-vsa-ls23-project1 ---
+[INFO] Deleting /tested--b-vsa-ls23-projekt-1/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ b-vsa-ls23-project1 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ b-vsa-ls23-project1 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /tested--b-vsa-ls23-projekt-1/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ b-vsa-ls23-project1 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ b-vsa-ls23-project1 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ b-vsa-ls23-project1 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tested--b-vsa-ls23-projekt-1/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ b-vsa-ls23-project1 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /tested--b-vsa-ls23-projekt-1/target/test-classes
+[WARNING] /tested--b-vsa-ls23-projekt-1/src/test/java/sk/stuba/fei/uim/vsa/pr1/utils/TestUtils.java: Some input files use unchecked or unsafe operations.
+[WARNING] /tested--b-vsa-ls23-projekt-1/src/test/java/sk/stuba/fei/uim/vsa/pr1/utils/TestUtils.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ b-vsa-ls23-project1 ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running sk.stuba.fei.uim.vsa.pr1.bonus.PageableTest
+2023-04-18 16:55:53.024  INFO --- [           main] org.reflections.Reflections              : Reflections took 94 ms to scan 2 urls, producing 7 keys and 16 values
+[EL Fine]: server: 2023-04-18 16:55:53.311--Thread(Thread[main,5,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+[EL Config]: metadata: 2023-04-18 16:55:53.534--ServerSession(258535644)--Thread(Thread[main,5,main])--The access type for the persistent class [class sk.stuba.fei.uim.vsa.pr1.Student] is set to [FIELD].
+[EL Config]: metadata: 2023-04-18 16:55:53.567--ServerSession(258535644)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to one mapping element [field finalThesis] is being defaulted to: class sk.stuba.fei.uim.vsa.pr1.FinalThesis.
+[EL Config]: metadata: 2023-04-18 16:55:53.568--ServerSession(258535644)--Thread(Thread[main,5,main])--The access type for the persistent class [class sk.stuba.fei.uim.vsa.pr1.Educator] is set to [FIELD].
+[EL Config]: metadata: 2023-04-18 16:55:53.579--ServerSession(258535644)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field finalTheses] is being defaulted to: class sk.stuba.fei.uim.vsa.pr1.FinalThesis.
+[EL Config]: metadata: 2023-04-18 16:55:53.58--ServerSession(258535644)--Thread(Thread[main,5,main])--The access type for the persistent class [class sk.stuba.fei.uim.vsa.pr1.FinalThesis] is set to [FIELD].
+[EL Config]: metadata: 2023-04-18 16:55:53.58--ServerSession(258535644)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to one mapping element [field student] is being defaulted to: class sk.stuba.fei.uim.vsa.pr1.Student.
+[EL Config]: metadata: 2023-04-18 16:55:53.582--ServerSession(258535644)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field educator] is being defaulted to: class sk.stuba.fei.uim.vsa.pr1.Educator.
+[EL Config]: metadata: 2023-04-18 16:55:53.584--ServerSession(258535644)--Thread(Thread[main,5,main])--The alias name for the entity class [class sk.stuba.fei.uim.vsa.pr1.Student] is being defaulted to: Student.
+[EL Config]: metadata: 2023-04-18 16:55:53.588--ServerSession(258535644)--Thread(Thread[main,5,main])--The table name for entity [class sk.stuba.fei.uim.vsa.pr1.Student] is being defaulted to: STUDENT.
+[EL Config]: metadata: 2023-04-18 16:55:53.608--ServerSession(258535644)--Thread(Thread[main,5,main])--The column name for element [semesterOfStudy] is being defaulted to: SEMESTEROFSTUDY.
+[EL Config]: metadata: 2023-04-18 16:55:53.608--ServerSession(258535644)--Thread(Thread[main,5,main])--The column name for element [name] is being defaulted to: NAME.
+[EL Config]: metadata: 2023-04-18 16:55:53.609--ServerSession(258535644)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2023-04-18 16:55:53.609--ServerSession(258535644)--Thread(Thread[main,5,main])--The column name for element [studyProgram] is being defaulted to: STUDYPROGRAM.
+[EL Config]: metadata: 2023-04-18 16:55:53.61--ServerSession(258535644)--Thread(Thread[main,5,main])--The column name for element [yearOfStudy] is being defaulted to: YEAROFSTUDY.
+[EL Config]: metadata: 2023-04-18 16:55:53.61--ServerSession(258535644)--Thread(Thread[main,5,main])--The column name for element [aisId] is being defaulted to: AISID.
+[EL Config]: metadata: 2023-04-18 16:55:53.61--ServerSession(258535644)--Thread(Thread[main,5,main])--The column name for element [email] is being defaulted to: EMAIL.
+[EL Config]: metadata: 2023-04-18 16:55:53.611--ServerSession(258535644)--Thread(Thread[main,5,main])--The alias name for the entity class [class sk.stuba.fei.uim.vsa.pr1.Educator] is being defaulted to: Educator.
+[EL Config]: metadata: 2023-04-18 16:55:53.611--ServerSession(258535644)--Thread(Thread[main,5,main])--The table name for entity [class sk.stuba.fei.uim.vsa.pr1.Educator] is being defaulted to: EDUCATOR.
+[EL Config]: metadata: 2023-04-18 16:55:53.612--ServerSession(258535644)--Thread(Thread[main,5,main])--The column name for element [name] is being defaulted to: NAME.
+[EL Config]: metadata: 2023-04-18 16:55:53.612--ServerSession(258535644)--Thread(Thread[main,5,main])--The column name for element [institute] is being defaulted to: INSTITUTE.
+[EL Config]: metadata: 2023-04-18 16:55:53.613--ServerSession(258535644)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2023-04-18 16:55:53.613--ServerSession(258535644)--Thread(Thread[main,5,main])--The column name for element [department] is being defaulted to: DEPARTMENT.
+[EL Config]: metadata: 2023-04-18 16:55:53.614--ServerSession(258535644)--Thread(Thread[main,5,main])--The column name for element [aisId] is being defaulted to: AISID.
+[EL Config]: metadata: 2023-04-18 16:55:53.615--ServerSession(258535644)--Thread(Thread[main,5,main])--The column name for element [email] is being defaulted to: EMAIL.
+[EL Config]: metadata: 2023-04-18 16:55:53.617--ServerSession(258535644)--Thread(Thread[main,5,main])--The alias name for the entity class [class sk.stuba.fei.uim.vsa.pr1.FinalThesis] is being defaulted to: FinalThesis.
+[EL Config]: metadata: 2023-04-18 16:55:53.617--ServerSession(258535644)--Thread(Thread[main,5,main])--The table name for entity [class sk.stuba.fei.uim.vsa.pr1.FinalThesis] is being defaulted to: FINALTHESIS.
+[EL Config]: metadata: 2023-04-18 16:55:53.617--ServerSession(258535644)--Thread(Thread[main,5,main])--The column name for element [registrationNumber] is being defaulted to: REGISTRATIONNUMBER.
+[EL Config]: metadata: 2023-04-18 16:55:53.618--ServerSession(258535644)--Thread(Thread[main,5,main])--The column name for element [description] is being defaulted to: DESCRIPTION.
+[EL Config]: metadata: 2023-04-18 16:55:53.618--ServerSession(258535644)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2023-04-18 16:55:53.618--ServerSession(258535644)--Thread(Thread[main,5,main])--The column name for element [title] is being defaulted to: TITLE.
+[EL Config]: metadata: 2023-04-18 16:55:53.619--ServerSession(258535644)--Thread(Thread[main,5,main])--The column name for element [type] is being defaulted to: TYPE.
+[EL Config]: metadata: 2023-04-18 16:55:53.627--ServerSession(258535644)--Thread(Thread[main,5,main])--The column name for element [workplace] is being defaulted to: WORKPLACE.
+[EL Config]: metadata: 2023-04-18 16:55:53.627--ServerSession(258535644)--Thread(Thread[main,5,main])--The column name for element [publicationDate] is being defaulted to: PUBLICATIONDATE.
+[EL Config]: metadata: 2023-04-18 16:55:53.629--ServerSession(258535644)--Thread(Thread[main,5,main])--The column name for element [submissionDeadline] is being defaulted to: SUBMISSIONDEADLINE.
+[EL Config]: metadata: 2023-04-18 16:55:53.629--ServerSession(258535644)--Thread(Thread[main,5,main])--The column name for element [status] is being defaulted to: STATUS.
+[EL Config]: metadata: 2023-04-18 16:55:53.643--ServerSession(258535644)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field student] is being defaulted to: ID.
+[EL Config]: metadata: 2023-04-18 16:55:53.643--ServerSession(258535644)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [student] is being defaulted to: STUDENT_ID.
+[EL Config]: metadata: 2023-04-18 16:55:53.644--ServerSession(258535644)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field educator] is being defaulted to: ID.
+[EL Config]: metadata: 2023-04-18 16:55:53.644--ServerSession(258535644)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [educator] is being defaulted to: EDUCATOR_ID.
+[EL Info]: 2023-04-18 16:55:53.937--ServerSession(258535644)--Thread(Thread[main,5,main])--EclipseLink, version: Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0
+[EL Fine]: connection: 2023-04-18 16:55:53.946--ServerSession(258535644)--Connection(141110631)--Thread(Thread[main,5,main])--connecting(DatabaseLogin(
+	platform=>PostgreSQLPlatform
+	user name=> "vsa"
+	datasource URL=> "jdbc:postgresql://localhost:5432/vsa_pr1_marko123701"
+))
+[EL Config]: connection: 2023-04-18 16:55:54.181--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--Connected: jdbc:postgresql://localhost:5432/vsa_pr1_marko123701
+	User: vsa
+	Database: PostgreSQL  Version: 15.2 (Debian 15.2-1.pgdg110+1)
+	Driver: PostgreSQL JDBC Driver  Version: 42.5.4
+[EL Fine]: connection: 2023-04-18 16:55:54.28--ServerSession(258535644)--Thread(Thread[main,5,main])--/file:/tested--b-vsa-ls23-projekt-1/target/classes/_vsa-project-1 login successful
+[EL Fine]: sql: 2023-04-18 16:55:54.3--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--ALTER TABLE FINALTHESIS DROP CONSTRAINT FK_FINALTHESIS_STUDENT_ID
+[EL Fine]: sql: 2023-04-18 16:55:54.312--ServerSession(258535644)--Thread(Thread[main,5,main])--SELECT 1
+[EL Warning]: 2023-04-18 16:55:54.325--ServerSession(258535644)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: relation "finalthesis" does not exist
+Error Code: 0
+Call: ALTER TABLE FINALTHESIS DROP CONSTRAINT FK_FINALTHESIS_STUDENT_ID
+Query: DataModifyQuery(sql="ALTER TABLE FINALTHESIS DROP CONSTRAINT FK_FINALTHESIS_STUDENT_ID")
+[EL Fine]: sql: 2023-04-18 16:55:54.326--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--ALTER TABLE FINALTHESIS DROP CONSTRAINT FK_FINALTHESIS_EDUCATOR_ID
+[EL Fine]: sql: 2023-04-18 16:55:54.328--ServerSession(258535644)--Thread(Thread[main,5,main])--SELECT 1
+[EL Warning]: 2023-04-18 16:55:54.328--ServerSession(258535644)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: relation "finalthesis" does not exist
+Error Code: 0
+Call: ALTER TABLE FINALTHESIS DROP CONSTRAINT FK_FINALTHESIS_EDUCATOR_ID
+Query: DataModifyQuery(sql="ALTER TABLE FINALTHESIS DROP CONSTRAINT FK_FINALTHESIS_EDUCATOR_ID")
+[EL Fine]: sql: 2023-04-18 16:55:54.329--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--DROP TABLE STUDENT CASCADE
+[EL Fine]: sql: 2023-04-18 16:55:54.331--ServerSession(258535644)--Thread(Thread[main,5,main])--SELECT 1
+[EL Warning]: 2023-04-18 16:55:54.333--ServerSession(258535644)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: table "student" does not exist
+Error Code: 0
+Call: DROP TABLE STUDENT CASCADE
+Query: DataModifyQuery(sql="DROP TABLE STUDENT CASCADE")
+[EL Fine]: sql: 2023-04-18 16:55:54.334--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--DROP TABLE EDUCATOR CASCADE
+[EL Fine]: sql: 2023-04-18 16:55:54.335--ServerSession(258535644)--Thread(Thread[main,5,main])--SELECT 1
+[EL Warning]: 2023-04-18 16:55:54.336--ServerSession(258535644)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: table "educator" does not exist
+Error Code: 0
+Call: DROP TABLE EDUCATOR CASCADE
+Query: DataModifyQuery(sql="DROP TABLE EDUCATOR CASCADE")
+[EL Fine]: sql: 2023-04-18 16:55:54.337--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--DROP TABLE FINALTHESIS CASCADE
+[EL Fine]: sql: 2023-04-18 16:55:54.338--ServerSession(258535644)--Thread(Thread[main,5,main])--SELECT 1
+[EL Warning]: 2023-04-18 16:55:54.339--ServerSession(258535644)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: table "finalthesis" does not exist
+Error Code: 0
+Call: DROP TABLE FINALTHESIS CASCADE
+Query: DataModifyQuery(sql="DROP TABLE FINALTHESIS CASCADE")
+[EL Fine]: sql: 2023-04-18 16:55:54.339--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--DROP TABLE STUDENT CASCADE
+[EL Fine]: sql: 2023-04-18 16:55:54.34--ServerSession(258535644)--Thread(Thread[main,5,main])--SELECT 1
+[EL Warning]: 2023-04-18 16:55:54.341--ServerSession(258535644)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: table "student" does not exist
+Error Code: 0
+Call: DROP TABLE STUDENT CASCADE
+Query: DataModifyQuery(sql="DROP TABLE STUDENT CASCADE")
+[EL Fine]: sql: 2023-04-18 16:55:54.342--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--DROP TABLE EDUCATOR CASCADE
+[EL Fine]: sql: 2023-04-18 16:55:54.343--ServerSession(258535644)--Thread(Thread[main,5,main])--SELECT 1
+[EL Warning]: 2023-04-18 16:55:54.344--ServerSession(258535644)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: table "educator" does not exist
+Error Code: 0
+Call: DROP TABLE EDUCATOR CASCADE
+Query: DataModifyQuery(sql="DROP TABLE EDUCATOR CASCADE")
+[EL Fine]: sql: 2023-04-18 16:55:54.344--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--DROP TABLE FINALTHESIS CASCADE
+[EL Fine]: sql: 2023-04-18 16:55:54.345--ServerSession(258535644)--Thread(Thread[main,5,main])--SELECT 1
+[EL Warning]: 2023-04-18 16:55:54.346--ServerSession(258535644)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: table "finalthesis" does not exist
+Error Code: 0
+Call: DROP TABLE FINALTHESIS CASCADE
+Query: DataModifyQuery(sql="DROP TABLE FINALTHESIS CASCADE")
+[EL Fine]: sql: 2023-04-18 16:55:54.346--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--DROP TABLE STUDENT CASCADE
+[EL Fine]: sql: 2023-04-18 16:55:54.347--ServerSession(258535644)--Thread(Thread[main,5,main])--SELECT 1
+[EL Warning]: 2023-04-18 16:55:54.348--ServerSession(258535644)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: table "student" does not exist
+Error Code: 0
+Call: DROP TABLE STUDENT CASCADE
+Query: DataModifyQuery(sql="DROP TABLE STUDENT CASCADE")
+[EL Fine]: sql: 2023-04-18 16:55:54.348--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--DROP TABLE EDUCATOR CASCADE
+[EL Fine]: sql: 2023-04-18 16:55:54.349--ServerSession(258535644)--Thread(Thread[main,5,main])--SELECT 1
+[EL Warning]: 2023-04-18 16:55:54.35--ServerSession(258535644)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: table "educator" does not exist
+Error Code: 0
+Call: DROP TABLE EDUCATOR CASCADE
+Query: DataModifyQuery(sql="DROP TABLE EDUCATOR CASCADE")
+[EL Fine]: sql: 2023-04-18 16:55:54.35--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--DROP TABLE FINALTHESIS CASCADE
+[EL Fine]: sql: 2023-04-18 16:55:54.351--ServerSession(258535644)--Thread(Thread[main,5,main])--SELECT 1
+[EL Warning]: 2023-04-18 16:55:54.351--ServerSession(258535644)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: table "finalthesis" does not exist
+Error Code: 0
+Call: DROP TABLE FINALTHESIS CASCADE
+Query: DataModifyQuery(sql="DROP TABLE FINALTHESIS CASCADE")
+[EL Fine]: sql: 2023-04-18 16:55:54.352--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--DROP TABLE STUDENT CASCADE
+[EL Fine]: sql: 2023-04-18 16:55:54.352--ServerSession(258535644)--Thread(Thread[main,5,main])--SELECT 1
+[EL Warning]: 2023-04-18 16:55:54.353--ServerSession(258535644)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: table "student" does not exist
+Error Code: 0
+Call: DROP TABLE STUDENT CASCADE
+Query: DataModifyQuery(sql="DROP TABLE STUDENT CASCADE")
+[EL Fine]: sql: 2023-04-18 16:55:54.353--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--DROP TABLE EDUCATOR CASCADE
+[EL Fine]: sql: 2023-04-18 16:55:54.354--ServerSession(258535644)--Thread(Thread[main,5,main])--SELECT 1
+[EL Warning]: 2023-04-18 16:55:54.355--ServerSession(258535644)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: table "educator" does not exist
+Error Code: 0
+Call: DROP TABLE EDUCATOR CASCADE
+Query: DataModifyQuery(sql="DROP TABLE EDUCATOR CASCADE")
+[EL Fine]: sql: 2023-04-18 16:55:54.355--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--DROP TABLE FINALTHESIS CASCADE
+[EL Fine]: sql: 2023-04-18 16:55:54.356--ServerSession(258535644)--Thread(Thread[main,5,main])--SELECT 1
+[EL Warning]: 2023-04-18 16:55:54.357--ServerSession(258535644)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: table "finalthesis" does not exist
+Error Code: 0
+Call: DROP TABLE FINALTHESIS CASCADE
+Query: DataModifyQuery(sql="DROP TABLE FINALTHESIS CASCADE")
+[EL Fine]: sql: 2023-04-18 16:55:54.357--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--DROP TABLE STUDENT CASCADE
+[EL Fine]: sql: 2023-04-18 16:55:54.358--ServerSession(258535644)--Thread(Thread[main,5,main])--SELECT 1
+[EL Warning]: 2023-04-18 16:55:54.359--ServerSession(258535644)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: table "student" does not exist
+Error Code: 0
+Call: DROP TABLE STUDENT CASCADE
+Query: DataModifyQuery(sql="DROP TABLE STUDENT CASCADE")
+[EL Fine]: sql: 2023-04-18 16:55:54.36--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--DROP TABLE EDUCATOR CASCADE
+[EL Fine]: sql: 2023-04-18 16:55:54.361--ServerSession(258535644)--Thread(Thread[main,5,main])--SELECT 1
+[EL Warning]: 2023-04-18 16:55:54.361--ServerSession(258535644)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: table "educator" does not exist
+Error Code: 0
+Call: DROP TABLE EDUCATOR CASCADE
+Query: DataModifyQuery(sql="DROP TABLE EDUCATOR CASCADE")
+[EL Fine]: sql: 2023-04-18 16:55:54.362--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--DROP TABLE FINALTHESIS CASCADE
+[EL Fine]: sql: 2023-04-18 16:55:54.363--ServerSession(258535644)--Thread(Thread[main,5,main])--SELECT 1
+[EL Warning]: 2023-04-18 16:55:54.363--ServerSession(258535644)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.7.11.v20220804-52dea2a3c0): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: table "finalthesis" does not exist
+Error Code: 0
+Call: DROP TABLE FINALTHESIS CASCADE
+Query: DataModifyQuery(sql="DROP TABLE FINALTHESIS CASCADE")
+[EL Fine]: sql: 2023-04-18 16:55:54.367--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--CREATE TABLE STUDENT (ID  SERIAL NOT NULL, AISID BIGINT NOT NULL, EMAIL VARCHAR(255) NOT NULL UNIQUE, NAME VARCHAR(255) NOT NULL, SEMESTEROFSTUDY INTEGER NOT NULL, STUDYPROGRAM VARCHAR(255) NOT NULL, YEAROFSTUDY INTEGER NOT NULL, PRIMARY KEY (ID))
+[EL Fine]: sql: 2023-04-18 16:55:54.395--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--CREATE TABLE EDUCATOR (ID  SERIAL NOT NULL, AISID BIGINT NOT NULL, DEPARTMENT VARCHAR(255) NOT NULL, EMAIL VARCHAR(255) NOT NULL UNIQUE, INSTITUTE VARCHAR(255) NOT NULL, NAME VARCHAR(255) NOT NULL, PRIMARY KEY (ID))
+[EL Fine]: sql: 2023-04-18 16:55:54.415--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--CREATE TABLE FINALTHESIS (ID  SERIAL NOT NULL, DESCRIPTION VARCHAR(255), PUBLICATIONDATE DATE NOT NULL, REGISTRATIONNUMBER VARCHAR(255) NOT NULL UNIQUE, STATUS VARCHAR(255) NOT NULL, SUBMISSIONDEADLINE DATE NOT NULL, TITLE VARCHAR(255) NOT NULL, TYPE VARCHAR(255) NOT NULL, WORKPLACE VARCHAR(255) NOT NULL, EDUCATOR_ID BIGINT, STUDENT_ID BIGINT, PRIMARY KEY (ID))
+[EL Fine]: sql: 2023-04-18 16:55:54.443--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--ALTER TABLE FINALTHESIS ADD CONSTRAINT FK_FINALTHESIS_STUDENT_ID FOREIGN KEY (STUDENT_ID) REFERENCES STUDENT (ID)
+[EL Fine]: sql: 2023-04-18 16:55:54.45--ServerSession(258535644)--Connection(212963786)--Thread(Thread[main,5,main])--ALTER TABLE FINALTHESIS ADD CONSTRAINT FK_FINALTHESIS_EDUCATOR_ID FOREIGN KEY (EDUCATOR_ID) REFERENCES EDUCATOR (ID)
+2023-04-18 16:55:54.456  INFO --- [           main] s.stuba.fei.uim.vsa.pr1.utils.TestUtils  : Thesis service class: sk.stuba.fei.uim.vsa.pr1.Application
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.829 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1.bonus.PageableTest
+[ERROR] sk.stuba.fei.uim.vsa.pr1.bonus.PageableTest  Time elapsed: 1.828 s  <<< ERROR!
+java.lang.ClassCastException: sk.stuba.fei.uim.vsa.pr1.Application cannot be cast to sk.stuba.fei.uim.vsa.pr1.bonus.PageableThesisService
+	at sk.stuba.fei.uim.vsa.pr1.bonus.PageableTest.setup(PageableTest.java:39)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   PageableTest.setup:39 ClassCast sk.stuba.fei.uim.vsa.pr1.Application cannot be...
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.885 s
+[INFO] Finished at: 2023-04-18T16:55:54Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test (default-test) on project b-vsa-ls23-project1: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /tested--b-vsa-ls23-projekt-1/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

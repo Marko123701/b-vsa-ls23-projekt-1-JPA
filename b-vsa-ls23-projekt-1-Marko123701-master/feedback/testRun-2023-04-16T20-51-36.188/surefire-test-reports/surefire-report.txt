@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1.bonus.PageableTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.64 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1.bonus.PageableTest
+sk.stuba.fei.uim.vsa.pr1.bonus.PageableTest  Time elapsed: 3.636 s  <<< ERROR!
+java.lang.ClassCastException: sk.stuba.fei.uim.vsa.pr1.Application cannot be cast to sk.stuba.fei.uim.vsa.pr1.bonus.PageableThesisService
+	at sk.stuba.fei.uim.vsa.pr1.bonus.PageableTest.setup(PageableTest.java:39)
+
+---------------------------------------------------------------------
+ 

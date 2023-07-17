@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><evaluation>
+  <exam>b-vsa-ls23-projekt-1</exam>
+  <student>
+    <aisId>111391</aisId>
+    <name>Marko Matúška</name>
+    <email>xmatuskam3@stuba.sk</email>
+    <github>Marko123701</github>
+  </student>
+  <testRuns>
+    <testRun>
+      <id>testRun-2023-04-19T20-50-33.570</id>
+      <totalRun>28</totalRun>
+      <success>28</success>
+      <failure>0</failure>
+      <error>0</error>
+      <points>15</points>
+      <bonus>false</bonus>
+      <duration>PT1M15.389S</duration>
+    </testRun>
+    <testRun>
+      <id>testRun-2023-04-19T20-51-48.969</id>
+      <totalRun>1</totalRun>
+      <success>0</success>
+      <failure>0</failure>
+      <error>1</error>
+      <points>0</points>
+      <bonus>true</bonus>
+      <duration>PT28.186S</duration>
+    </testRun>
+  </testRuns>
+  <totalPoints>15</totalPoints>
+  <notes/>
+  <testDuration>PT1M43.575S</testDuration>
+</evaluation>
